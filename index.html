@@ -10,9 +10,72 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://liceufranco.com.br"> <img src="/assets/logo.png"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://liceufranco.com.br/fale-conosco/">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://liceufranco.com.br/aplicativo-escolar/">Aplicativo Escolar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="iframe" class="container-sm" style="width: 400px;">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-lg" onclick="pageStudent();">Estudante</button>
+            </div>
     
+            <div class="col">
+                <button type="button" class="btn btn-danger btn-lg" onclick="pageTeacher();">Professor(a)</button>
+            </div>
+        </div>
+
+        <!---LOGIN ESTUDANTE-->
+        <div id="pageStudent"style="display: none;">
+            <div class="box">
+                <h2>Área do aluno</h2>
+                <form action="/" method="post">
+                    <div class="mb-3">
+                        <label for="userStudent" class="form-label">CPF:</label>
+                        <input type="" class="form-control" id="cpf" placeholder="Digite o seu CPF aqui.">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="passwStudent" class="form-label">Senha:</label>
+                        <input type="password" class="form-control" placeholder="Digite a sua senha.">
+                    </div>
+
+                    <div class="mb-3 ">
+                        <button type="submit" class="btn btn-primary">Acessar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--- LOGIN PROFESSOR(A)-->
+        <div id="pageTeacher" class="box" style="display: none;">
+            <div class="box">
+                <h2>Área do professor</h2>
+            </div>
+        </div>
+      </div>
+
     
+      <script src="/assets/scripts.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="/assets/scripts.js"></script>
 </body>
 </html>
