@@ -36,3 +36,8 @@ h2 {
     margin-bottom: 10px;
     font-weight: bold;
 }
+
+footer {
+    font: 11px 'Consolas';
+    text-transform: uppercase;
+}
