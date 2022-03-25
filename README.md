@@ -1,5 +1,5 @@
 <h1>Projeto - Tela de Login</h1>
-Projeto web de tela de login baseado no site do Colégio Franco-Brasileiro.
+Projeto baseado na área de login do Colégio Franco-Brasileiro.
 Foi utilizado HTML, CSS, Bootstrap e JS puro. Design totalmente responsivo.
 <br><br>
 Live project: https://proj-franco-login.netlify.app/
