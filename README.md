@@ -2,6 +2,6 @@
 Projeto baseado na área de login do Colégio Franco-Brasileiro.
 Foi utilizado HTML, CSS, Bootstrap e JS puro. Design totalmente responsivo.
 <br><br>
-Live project: https://alvesxdani.github.io/projLogin/
+Live project: https://alvesxdani.github.io/proj-login/
 <br><br>
 <img src="https://github.com/alvesxdani/projLogin/blob/main/assets/print02.png">
